@@ -2,7 +2,7 @@ def bubble_sort_by(array)
   loop do
     exitLoop = false
     (array.length - 1).times do |i|
-      if yield(array[i] - array[i + 1]) > 0
+      if yield(array[i], array[i + 1]) > 0
         array[i], array[i + 1] = array[i + 1], array[i]
         exitLoop = true
       end
