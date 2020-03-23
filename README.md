@@ -4,13 +4,13 @@
 
 - Ruby
 
-## Objectives
-
-- Create a bubble sort programm to sort numbers to lower to highest and sort words by its length
-
 ## Getting Started
 
-###
+### Objectives
+- Create a bubble sort programm to sort numbers to lower to highest and sort words by its length.
+
+### Usage
+- Clone the repository by clicking the clone or download button on the main clone page.
 
 ## Author
 
