@@ -11,5 +11,9 @@ def bubble_sort_by(array)
   end
 end
 
+puts "Add multiple words separated by a coma and no spaces"
+user_array = gets.chomp.split(",")
+
+print bubble_sort_by(user_array) { |left, right| left.length - right.length }
 print bubble_sort_by(["hi","hello","hey"]) { |left, right| left.length - right.length }
 print bubble_sort_by(["perro","sol","murciélago","gato","esfera"]) { |left, right| left.length - right.length }
